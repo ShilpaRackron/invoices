@@ -1,0 +1,66 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Project Template",
+    "keywords": ["yii2", "framework", "advanced", "project template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.6",
+	"yiisoft/yii2-jui": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+	"fxp/composer-asset-plugin":"~1.1.0", 	
+        "mcs/amazon-mws": "^0.1.26",
+	"kartik-v/yii2-mpdf": "dev-master",
+	"kartik-v/yii2-popover-x": "dev-master",
+        "codemix/yii2-excelexport": "^2.7",
+	"yiister/yii2-gentelella": "~1.0",
+	"drsdre/yii2-wizardwidget": "*",
+	"aivanouski/amazon-mws-finances": "dev-master" ,
+	"yiisoft/yii2-imagine": "~2.1.0",
+	"miloschuman/yii2-highcharts-widget": "*",
+	"yii2tech/spreadsheet": "*",
+	"kartik-v/yii2-date-range": "dev-master" ,
+	"yii2tech/csv-grid": "*" ,
+	"kartik-v/yii2-grid": "@dev",
+	"kartik-v/yii2-krajee-base": "@dev",
+	"kartik-v/yii2-editable": "@dev",
+	"kartik-v/yii2-widget-select2":"@dev",
+	"kartik-v/yii2-icons": "@dev"
+    },
+    "replace": {
+    "bower-asset/jquery": ">=1.11.0",
+    "bower-asset/inputmask": ">=3.2.0",
+    "bower-asset/punycode": ">=1.3.0",
+    "bower-asset/yii2-pjax": ">=2.0.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
