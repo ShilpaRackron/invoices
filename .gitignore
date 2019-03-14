@@ -44,3 +44,5 @@ cronjob_createdailyreport.php
 cronjob_createordersreport.php
 cronjob_send_emails.php
 cronjob_reset_invoice_counter.php
+common/config/params.php
+common/config/main.php
