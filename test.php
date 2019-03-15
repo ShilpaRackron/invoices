@@ -1,7 +1,8 @@
 <?php
 $to = "mtkumar82@gmail.com";
 $subject = "HTML email";
-
+echo "ddfgddgd";
+die();
 $message = "
 <html>
 <head>
