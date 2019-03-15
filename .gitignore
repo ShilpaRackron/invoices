@@ -47,3 +47,4 @@ cronjob_reset_invoice_counter.php
 /common/config/params.php
 /common/config/main.php
 /frontend/config
+/frontend/config/params.php
